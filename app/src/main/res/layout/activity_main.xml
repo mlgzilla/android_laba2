@@ -8,8 +8,19 @@
     <ListView
         android:id="@+id/textList"
         android:layout_width="wrap_content"
+        android:layout_height="522dp"
         android:layout_marginTop="40pt"
-        android:layout_height="522dp"></ListView>
+        android:choiceMode="multipleChoice">
+    </ListView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="15dp"/>
 
     <Button
         android:id="@+id/buttonLang"
